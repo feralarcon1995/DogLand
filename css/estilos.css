@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+/*MENU*/
+header {
+  background-image: url(../assets/img/perrito5.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.menu {
+  background-color: #00ff33;
+  padding: 10px 0px; }
+
+.menu a {
+  color: #232323; }
+
+.navbar-toggler-icon {
+  color: #fff; }
+
+/*HERO SECTION*/
+.hero {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+/*MAIN*/
+/*Card section*/
+.card__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center; }
+
+.card {
+  display: flex;
+  flex-direction: row;
+  background-color: #eee;
+  width: 90%;
+  margin: 10px; }
+  .card h3 {
+    font-size: 50px; }
+    .card h3:hover {
+      color: #00eeff; }
+  .card__img {
+    width: 300px;
+    height: 300px; }
+  .card__content {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+    width: 100%; }
+  .card__column {
+    background-color: #ffdac7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 150px 30px; }
+    .card__column h2 {
+      padding: 30px 0px;
+      transition: .3s; }
+      .card__column h2:hover {
+        color: #00ff33;
+        transform: scale(1.05); }
+
+/*NOTICIAS SECTION*/
+.noticias__row {
+  background-color: #00ff33;
+  padding: 150px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  /* display      : flex;
+    flex-wrap       : wrap;
+    justify-content : center;
+    align-items     : center; */ }
+
+.noticias__row h2 {
+  padding: 50px; }
+
+.noticias {
+  display: flex;
+  flex-direction: column;
+  background-color: #eee;
+  margin: 10px;
+  width: 30%;
+  justify-content: space-between;
+  align-items: center; }
+
+.noticias__img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover; }
+
+.noticias__content {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 200px; }
+
+/*GALERIA*/
+.galeria {
+  background-color: #00ff33; }
+
+/*FOOTER*/
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px; }

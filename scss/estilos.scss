@@ -1,0 +1,156 @@
+//VARIABLES
+$colorPrimario: #ddff00;
+$tamañoTitulos: 50px;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*MENU*/
+header {
+  background-image: url(../assets/img/perrito5.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.menu {
+  background-color: $colorPrimario;
+  padding: 10px 0px;
+}
+.menu a {
+  color: #232323;
+}
+
+.navbar-toggler-icon {
+  color: #fff;
+}
+
+/*HERO SECTION*/
+.hero {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*MAIN*/
+
+/*Card section*/
+
+.card__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  background-color: #eee;
+  width: 90%;
+  margin: 10px;
+
+
+  //contenido de info de perrito
+  & h3 {
+    font-size: $tamañoTitulos;
+
+      &:hover{
+        color: #00eeff;
+      }
+  }
+
+  //otrs clases de card
+
+  &__img {
+    width: 300px;
+    height: 300px;
+  }
+
+  &__content {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+    width: 100%;
+  }
+
+  &__column {
+    background-color: #ffdac7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 150px 30px;
+
+    &  h2 {
+        padding: 30px 0px;
+        transition: .3s;
+
+        &:hover{
+            color:#00ff33;
+            transform: scale(1.05);
+        }
+      }
+  }
+
+  
+}
+
+/*NOTICIAS SECTION*/
+
+.noticias__row {
+  background-color: $colorPrimario;
+  padding: 150px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  /* display      : flex;
+    flex-wrap       : wrap;
+    justify-content : center;
+    align-items     : center; */
+}
+
+.noticias__row h2 {
+  padding: 50px;
+}
+
+.noticias {
+  display: flex;
+  flex-direction: column;
+  background-color: #eee;
+  margin: 10px;
+  width: 30%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.noticias__img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.noticias__content {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 200px;
+}
+
+/*GALERIA*/
+.galeria {
+  background-color: $colorPrimario;
+}
+
+/*FOOTER*/
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+}
